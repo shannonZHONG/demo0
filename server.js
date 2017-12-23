@@ -28,7 +28,7 @@ var server = http.createServer(function(request, response){
   }
   else if (path =='/main.js'){
   response.setHeader('content-Type','text/javasciprt')
-  response.write('alert("javascript have done")')
+  response.write('alert(" Happy New Year ! ")')
   response.end()
   }
   else if (path =='/index'){
